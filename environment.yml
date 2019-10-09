@@ -1,24 +1,17 @@
-name: pytorch
+name: pytorch-env
 channels:
   - conda-forge
   - pytorch
 dependencies:
+  - python
   - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
-  - python=3
-  - scipy
-  - scikit-learn
+  - pip
   - pytorch::pytorch
   - pytorch::torchvision
-  - pip
-- pip:
-    - watermark
+  - matplotlib
+  - pandas
+  - pip:
     - nbgitpuller
     - sphinx-gallery
+    - pandas
+    - matplotlib
