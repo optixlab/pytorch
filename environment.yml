@@ -1,0 +1,19 @@
+name: pytorch
+channels:
+- conda-forge
+- pytorch
+dependencies:
+- python=3
+- ipython
+- ipython-notebook
+- scipy
+- numpy
+- pandas
+- matplotlib
+- scikit-learn
+- pytorch::pytorch
+- pytorch::torchvision
+- pip:
+    - watermark
+    - nbgitpuller
+    - sphinx-gallery
