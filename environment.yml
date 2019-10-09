@@ -3,17 +3,21 @@ channels:
 - conda-forge
 - pytorch
 dependencies:
-- python=3
-- ipython
-- ipython-notebook
-- scipy
-- numpy
-- pandas
-- matplotlib
-- scikit-learn
-- pytorch::pytorch
-- pytorch::torchvision
-- pip
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - dask
+  - python=3
+  - scipy
+  - scikit-learn
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pip
 - pip:
     - watermark
     - nbgitpuller
