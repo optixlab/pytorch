@@ -13,6 +13,7 @@ dependencies:
 - scikit-learn
 - pytorch::pytorch
 - pytorch::torchvision
+- pip
 - pip:
     - watermark
     - nbgitpuller
