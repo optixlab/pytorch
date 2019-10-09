@@ -1,3 +1,4 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/optixlab/pytorch/master)
 # PyTorch
 
 This repository is for PyTorch Jupyter notebooks. They are intended for use within [Colab](https://colab.research.google.com), primarily for instructional purposes.
